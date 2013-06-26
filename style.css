@@ -1,6 +1,6 @@
 body {width:1024px;
 margin: 0 auto; 
-font-family: helvetica;
+font-family: 'Advent Pro', sans-serif;
 font-size: 18pt;
 font-weight: bold;
 }
@@ -9,11 +9,24 @@ ol{list-style-position: inside;}
 
 ul li {list-style: none;
 	text-decoration: none;
-margin-top: 50px}
+margin-top: 70px}
 
-h1{font-size: 60px; 
+li a:hover {color:green;
+}
+
+li a{text-decoration: none; 
+ }
+
+
+div nav ul{float: right;
+margin-top:5px;
+display: inline;}
+
+div nav ul li {display: inline;}
+
+h1{font-size: 50px; 
 float: left;
-margin-top: 10px;
+margin-top: 9px;
 }
 
 
@@ -26,7 +39,7 @@ font-weight: bold;}
 header ul li{float: right;
 padding-left: 30px;
 margin-top: 44px
-font-size:20px;}
+font-size:15px;}
 
 p{font-size: 17px;
 	float: left;
@@ -42,7 +55,7 @@ width: 30%;
 }
 
 section{float: left;
-width: 60%;
+width: 70%;
 }
 
 footer {clear:both;}
