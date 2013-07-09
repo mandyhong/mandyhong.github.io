@@ -1,67 +1,66 @@
 body {width:1024px;
-margin: 0 auto; 
-font-family: 'Advent Pro', sans-serif;
-font-size: 18pt;
-font-weight: bold;
+	margin: 0 auto; 
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	background-color: white;
+	background background-attachment: fixed;
 }
 
-ol{list-style-position: inside;}
-
-ul li {list-style: none;
-	text-decoration: none;
-margin-top: 70px}
+ul {list-style: none;
+}
 
 li a:hover {color:green;
 }
 
-li a{text-decoration: none; 
- }
-
-
-div nav ul{float: right;
-margin-top:5px;
-display: inline;}
-
-div nav ul li {display: inline;}
-
-h1{font-size: 50px; 
-float: left;
-margin-top: 9px;
+a{text-decoration: none; 
 }
 
 
-hr{clear: both;}
+
+
+h1{ 
+	float: left;
+	margin-top: 9px;
+	margin-bottom: 0px;
+}
+
+hr{clear: both;
+}
+
 h2{font-size: 24px;
-text-align: center;
-margin-top: 20px;
-font-weight: bold;}
+	text-align: center;
+	font-weight: bold;
+}
 
-header ul li{float: right;
-padding-left: 30px;
-margin-top: 44px
-font-size:15px;}
+#menu li{float: right;
+	padding-left: 30px;
+	margin-top: 70px;
+}
 
-p{font-size: 17px;
+p {font-size: 17px;
 	float: left;
 	width: 65%;
-
-line-height: 1.3em;
-text-align: center;
-margin-top: .75em;
+	line-height: 1.3em;
+	text-align: center;
+	margin-top: .75em;
 }
 
-aside{float: right;
-width: 30%;
+#container{
+	padding-top: 10px;
+	
 }
 
-section{float: left;
-width: 70%;
+section {float: left;
+	width: 70%;
 }
 
 footer {clear:both;}
-footer ul li{float:left;
-padding-left: 30px;
-margin: 10px 0 0 20px;
-font-size: 20px;}
 
-#container{clear: both;}
+#social li{float:left;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	margin: 5px 0 0 5px;
+	font-size: 20px;}
+
+	#container{clear: both;}
